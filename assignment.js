@@ -51,7 +51,7 @@ console.log("Values are: " + (solveQuadratic(1,-3,2)));
 
 // 3. Core JavaScript logic (Loops & If-Else)
 
-( >= 50) ? console.log("Pass"): console.log("Fail");
+// ( >= 50) ? console.log("Pass"): console.log("Fail");
 
 
 // 4. Basic JavaScript Utility Task

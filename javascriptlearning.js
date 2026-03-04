@@ -80,3 +80,32 @@ console.log(profile.age);
 
 // bracket notation
 console.log(profile["age"]);
+
+// Array Methods = Filter | Reduces | for-in | for-of
+
+const count = [1, 2, "red", 4, 5, 6];
+let result = count.filter((item)=>{
+    return item > 4;
+})
+console.log(result);
+
+let reDuce = count.reduce((accumulate, currentValue)=>{
+   return (accumulate += currentValue);
+})
+
+console.log(reDuce);
+
+for (item in count) {
+    console.log(item); // returns the index
+} 
+
+for (item of count) {
+    console.log(item); // returns the values
+}
+
+
+let studentsNames = schoolData.classrooms.map(()=>{
+    return item.students.map((item) => {
+        return item.name;
+    });
+});
